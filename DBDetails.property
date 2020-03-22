@@ -1,0 +1,9 @@
+driver=oracle.jdbc.driver.OracleDriver
+url=jdbc:oracle:thin:@localhost:1521:orcl
+user=system
+password=shiv
+InsertQuery=insert into dept values(?,?,?)
+Select_AmountQuery=select amount from bank_account where accno=?
+Select_ResultSetAbsoluteQuery=select accno, custname, gender, city, amount from bank_account
+Update_Add_AmountQuery=update bank_account set amount= amount+? where accno=?
+Update_Sub_AmountQuery=update bank_account set amount= amount-? where accno=?

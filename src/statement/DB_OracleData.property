@@ -1,0 +1,9 @@
+driver=oracle.jdbc.driver.OracleDriver
+url=jdbc:oracle:thin:@localhost:1521:orcl
+user=system
+password=shiv
+#UpdateQuery= update dept set dname='manager' where dno=8
+UpdateQuery= update dept set dname='Clerk' ,empname='Pinkoo' where dno=11
+
+
+
